@@ -1,0 +1,47 @@
+#home {
+    display: flex;
+   
+    position: sticky;
+    background-color: black;
+}
+
+#cta {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    object-fit: cover;
+    /* margin-top: 5%; */
+}
+.de_volta{
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+}
+
+
+
+
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,
+    #banner img,
+    #home .shape {
+        display: none;
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #phone_button button {
+        display: none;
+    }
+}
